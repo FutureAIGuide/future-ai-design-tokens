@@ -1,0 +1,867 @@
+{
+  "fg": {
+    "color": {
+      "primary": {
+        "value": "#3366FF",
+        "type": "color",
+        "description": "Primary brand color",
+        "themeable": true,
+        "$extensions": {
+          "mode": "light"
+        }
+      },
+      "primary-dark": {
+        "value": "#5C85FF",
+        "type": "color",
+        "description": "Primary brand color (dark mode)",
+        "themeable": true,
+        "$extensions": {
+          "mode": "dark"
+        }
+      },
+      "accent": {
+        "value": "#FF6B00",
+        "type": "color",
+        "description": "Secondary accent color",
+        "themeable": true,
+        "$extensions": {
+          "mode": "light"
+        }
+      },
+      "accent-dark": {
+        "value": "#FF8A3D",
+        "type": "color",
+        "description": "Secondary accent color (dark mode)",
+        "themeable": true,
+        "$extensions": {
+          "mode": "dark"
+        }
+      },
+      "text": {
+        "value": "#1A1A1A",
+        "type": "color",
+        "description": "Primary text color",
+        "themeable": true,
+        "$extensions": {
+          "mode": "light"
+        }
+      },
+      "text-dark": {
+        "value": "#F5F5F5",
+        "type": "color",
+        "description": "Primary text color (dark mode)",
+        "themeable": true,
+        "$extensions": {
+          "mode": "dark"
+        }
+      },
+      "text-muted": {
+        "value": "#6B7280",
+        "type": "color",
+        "description": "Secondary text color",
+        "themeable": true,
+        "$extensions": {
+          "mode": "light"
+        }
+      },
+      "text-muted-dark": {
+        "value": "#9CA3AF",
+        "type": "color",
+        "description": "Secondary text color (dark mode)",
+        "themeable": true,
+        "$extensions": {
+          "mode": "dark"
+        }
+      },
+      "bg": {
+        "value": "#FFFFFF",
+        "type": "color",
+        "description": "Background color",
+        "themeable": true,
+        "$extensions": {
+          "mode": "light"
+        }
+      },
+      "bg-dark": {
+        "value": "#121212",
+        "type": "color",
+        "description": "Background color (dark mode)",
+        "themeable": true,
+        "$extensions": {
+          "mode": "dark"
+        }
+      },
+      "surface": {
+        "value": "#F9FAFB",
+        "type": "color",
+        "description": "Surface color for cards and elements",
+        "themeable": true,
+        "$extensions": {
+          "mode": "light"
+        }
+      },
+      "surface-dark": {
+        "value": "#1E1E1E",
+        "type": "color",
+        "description": "Surface color for cards and elements (dark mode)",
+        "themeable": true,
+        "$extensions": {
+          "mode": "dark"
+        }
+      },
+      "border": {
+        "value": "#E5E7EB",
+        "type": "color",
+        "description": "Border color",
+        "themeable": true,
+        "$extensions": {
+          "mode": "light"
+        }
+      },
+      "border-dark": {
+        "value": "#333333",
+        "type": "color",
+        "description": "Border color (dark mode)",
+        "themeable": true,
+        "$extensions": {
+          "mode": "dark"
+        }
+      },
+      "success": {
+        "value": "#10B981",
+        "type": "color",
+        "description": "Success state color",
+        "themeable": true,
+        "$extensions": {
+          "mode": "light"
+        }
+      },
+      "success-dark": {
+        "value": "#34D399",
+        "type": "color",
+        "description": "Success state color (dark mode)",
+        "themeable": true,
+        "$extensions": {
+          "mode": "dark"
+        }
+      },
+      "error": {
+        "value": "#EF4444",
+        "type": "color",
+        "description": "Error state color",
+        "themeable": true,
+        "$extensions": {
+          "mode": "light"
+        }
+      },
+      "error-dark": {
+        "value": "#F87171",
+        "type": "color",
+        "description": "Error state color (dark mode)",
+        "themeable": true,
+        "$extensions": {
+          "mode": "dark"
+        }
+      },
+      "warning": {
+        "value": "#F59E0B",
+        "type": "color",
+        "description": "Warning state color",
+        "themeable": true,
+        "$extensions": {
+          "mode": "light"
+        }
+      },
+      "warning-dark": {
+        "value": "#FBBF24",
+        "type": "color",
+        "description": "Warning state color (dark mode)",
+        "themeable": true,
+        "$extensions": {
+          "mode": "dark"
+        }
+      },
+      "btn": {
+        "hover": {
+          "value": "#2952CC",
+          "type": "color",
+          "description": "Button hover state color",
+          "themeable": true,
+          "$extensions": {
+            "mode": "light"
+          }
+        },
+        "hover-dark": {
+          "value": "#7599FF",
+          "type": "color",
+          "description": "Button hover state color (dark mode)",
+          "themeable": true,
+          "$extensions": {
+            "mode": "dark"
+          }
+        },
+        "focus": {
+          "value": "#1F42A3",
+          "type": "color",
+          "description": "Button focus state color",
+          "themeable": true,
+          "$extensions": {
+            "mode": "light"
+          }
+        },
+        "focus-dark": {
+          "value": "#4A6ECC",
+          "type": "color",
+          "description": "Button focus state color (dark mode)",
+          "themeable": true,
+          "$extensions": {
+            "mode": "dark"
+          }
+        }
+      }
+    },
+    "font": {
+      "family": {
+        "base": {
+          "value": "Inter, system-ui, sans-serif",
+          "type": "fontFamilies",
+          "description": "Base font family for body text"
+        },
+        "alt": {
+          "value": "Manrope, system-ui, sans-serif",
+          "type": "fontFamilies",
+          "description": "Alternative font family for headings"
+        }
+      },
+      "size": {
+        "xs": {
+          "value": "0.75rem",
+          "type": "fontSizes",
+          "description": "Extra small font size (12px)"
+        },
+        "sm": {
+          "value": "0.875rem",
+          "type": "fontSizes",
+          "description": "Small font size (14px)"
+        },
+        "base": {
+          "value": "1rem",
+          "type": "fontSizes",
+          "description": "Base font size (16px)"
+        },
+        "lg": {
+          "value": "1.125rem",
+          "type": "fontSizes",
+          "description": "Large font size (18px)"
+        },
+        "xl": {
+          "value": "1.25rem",
+          "type": "fontSizes",
+          "description": "Extra large font size (20px)"
+        },
+        "2xl": {
+          "value": "1.5rem",
+          "type": "fontSizes",
+          "description": "2x large font size (24px)"
+        },
+        "3xl": {
+          "value": "1.875rem",
+          "type": "fontSizes",
+          "description": "3x large font size (30px)"
+        },
+        "4xl": {
+          "value": "2.25rem",
+          "type": "fontSizes",
+          "description": "4x large font size (36px)"
+        },
+        "5xl": {
+          "value": "3rem",
+          "type": "fontSizes",
+          "description": "5x large font size (48px)"
+        },
+        "6xl": {
+          "value": "3.75rem",
+          "type": "fontSizes",
+          "description": "6x large font size (60px)"
+        }
+      },
+      "weight": {
+        "light": {
+          "value": "300",
+          "type": "fontWeights",
+          "description": "Light font weight"
+        },
+        "regular": {
+          "value": "400",
+          "type": "fontWeights",
+          "description": "Regular font weight"
+        },
+        "medium": {
+          "value": "500",
+          "type": "fontWeights",
+          "description": "Medium font weight"
+        },
+        "semibold": {
+          "value": "600",
+          "type": "fontWeights",
+          "description": "Semibold font weight"
+        },
+        "bold": {
+          "value": "700",
+          "type": "fontWeights",
+          "description": "Bold font weight"
+        }
+      },
+      "style": {
+        "normal": {
+          "value": "normal",
+          "type": "fontStyles",
+          "description": "Normal font style"
+        },
+        "italic": {
+          "value": "italic",
+          "type": "fontStyles",
+          "description": "Italic font style"
+        }
+      }
+    },
+    "line-height": {
+      "tight": {
+        "value": "1.25",
+        "type": "lineHeights",
+        "description": "Tight line height for headings"
+      },
+      "base": {
+        "value": "1.5",
+        "type": "lineHeights",
+        "description": "Base line height for body text"
+      },
+      "loose": {
+        "value": "1.75",
+        "type": "lineHeights",
+        "description": "Loose line height for readable paragraphs"
+      }
+    },
+    "letter-spacing": {
+      "tight": {
+        "value": "-0.025em",
+        "type": "letterSpacing",
+        "description": "Tight letter spacing for headings"
+      },
+      "normal": {
+        "value": "0",
+        "type": "letterSpacing",
+        "description": "Normal letter spacing"
+      },
+      "wide": {
+        "value": "0.025em",
+        "type": "letterSpacing",
+        "description": "Wide letter spacing for small text and all-caps"
+      }
+    },
+    "spacing": {
+      "xxs": {
+        "value": "0.25rem",
+        "type": "spacing",
+        "description": "Extra extra small spacing (4px)"
+      },
+      "xs": {
+        "value": "0.5rem",
+        "type": "spacing",
+        "description": "Extra small spacing (8px)"
+      },
+      "sm": {
+        "value": "0.75rem",
+        "type": "spacing",
+        "description": "Small spacing (12px)"
+      },
+      "md": {
+        "value": "1rem",
+        "type": "spacing",
+        "description": "Medium spacing (16px)"
+      },
+      "lg": {
+        "value": "1.5rem",
+        "type": "spacing",
+        "description": "Large spacing (24px)"
+      },
+      "xl": {
+        "value": "2rem",
+        "type": "spacing",
+        "description": "Extra large spacing (32px)"
+      },
+      "2xl": {
+        "value": "3rem",
+        "type": "spacing",
+        "description": "2x large spacing (48px)"
+      },
+      "3xl": {
+        "value": "4rem",
+        "type": "spacing",
+        "description": "3x large spacing (64px)"
+      },
+      "4xl": {
+        "value": "6rem",
+        "type": "spacing",
+        "description": "4x large spacing (96px)"
+      },
+      "5xl": {
+        "value": "8rem",
+        "type": "spacing",
+        "description": "5x large spacing (128px)"
+      }
+    },
+    "padding": {
+      "section": {
+        "value": "{fg.spacing.4xl}",
+        "type": "spacing",
+        "description": "Section padding"
+      },
+      "card": {
+        "value": "{fg.spacing.lg}",
+        "type": "spacing",
+        "description": "Card padding"
+      }
+    },
+    "margin": {
+      "block": {
+        "value": "{fg.spacing.xl}",
+        "type": "spacing",
+        "description": "Block margin"
+      }
+    },
+    "gap": {
+      "grid": {
+        "value": "{fg.spacing.lg}",
+        "type": "spacing",
+        "description": "Grid gap"
+      }
+    },
+    "radius": {
+      "xs": {
+        "value": "0.125rem",
+        "type": "borderRadius",
+        "description": "Extra small border radius (2px)"
+      },
+      "sm": {
+        "value": "0.25rem",
+        "type": "borderRadius",
+        "description": "Small border radius (4px)"
+      },
+      "md": {
+        "value": "0.5rem",
+        "type": "borderRadius",
+        "description": "Medium border radius (8px)"
+      },
+      "lg": {
+        "value": "0.75rem",
+        "type": "borderRadius",
+        "description": "Large border radius (12px)"
+      },
+      "xl": {
+        "value": "1rem",
+        "type": "borderRadius",
+        "description": "Extra large border radius (16px)"
+      },
+      "2xl": {
+        "value": "1.5rem",
+        "type": "borderRadius",
+        "description": "2x large border radius (24px)"
+      },
+      "full": {
+        "value": "9999px",
+        "type": "borderRadius",
+        "description": "Full/pill border radius"
+      }
+    },
+    "shadow": {
+      "xs": {
+        "value": "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
+        "type": "boxShadow",
+        "description": "Extra small shadow",
+        "themeable": true,
+        "$extensions": {
+          "mode": "light"
+        }
+      },
+      "xs-dark": {
+        "value": "0 1px 2px 0 rgba(0, 0, 0, 0.3)",
+        "type": "boxShadow",
+        "description": "Extra small shadow (dark mode)",
+        "themeable": true,
+        "$extensions": {
+          "mode": "dark"
+        }
+      },
+      "sm": {
+        "value": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+        "type": "boxShadow",
+        "description": "Small shadow",
+        "themeable": true,
+        "$extensions": {
+          "mode": "light"
+        }
+      },
+      "sm-dark": {
+        "value": "0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 1px 2px 0 rgba(0, 0, 0, 0.2)",
+        "type": "boxShadow",
+        "description": "Small shadow (dark mode)",
+        "themeable": true,
+        "$extensions": {
+          "mode": "dark"
+        }
+      },
+      "md": {
+        "value": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+        "type": "boxShadow",
+        "description": "Medium shadow",
+        "themeable": true,
+        "$extensions": {
+          "mode": "light"
+        }
+      },
+      "md-dark": {
+        "value": "0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2)",
+        "type": "boxShadow",
+        "description": "Medium shadow (dark mode)",
+        "themeable": true,
+        "$extensions": {
+          "mode": "dark"
+        }
+      },
+      "lg": {
+        "value": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+        "type": "boxShadow",
+        "description": "Large shadow",
+        "themeable": true,
+        "$extensions": {
+          "mode": "light"
+        }
+      },
+      "lg-dark": {
+        "value": "0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2)",
+        "type": "boxShadow",
+        "description": "Large shadow (dark mode)",
+        "themeable": true,
+        "$extensions": {
+          "mode": "dark"
+        }
+      },
+      "xl": {
+        "value": "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+        "type": "boxShadow",
+        "description": "Extra large shadow",
+        "themeable": true,
+        "$extensions": {
+          "mode": "light"
+        }
+      },
+      "xl-dark": {
+        "value": "0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.2)",
+        "type": "boxShadow",
+        "description": "Extra large shadow (dark mode)",
+        "themeable": true,
+        "$extensions": {
+          "mode": "dark"
+        }
+      },
+      "2xl": {
+        "value": "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
+        "type": "boxShadow",
+        "description": "2x large shadow",
+        "themeable": true,
+        "$extensions": {
+          "mode": "light"
+        }
+      },
+      "2xl-dark": {
+        "value": "0 25px 50px -12px rgba(0, 0, 0, 0.5)",
+        "type": "boxShadow",
+        "description": "2x large shadow (dark mode)",
+        "themeable": true,
+        "$extensions": {
+          "mode": "dark"
+        }
+      },
+      "glow": {
+        "value": "0 0 15px 2px rgba(51, 102, 255, 0.25)",
+        "type": "boxShadow",
+        "description": "Glow effect for hover states",
+        "themeable": true,
+        "$extensions": {
+          "mode": "light"
+        }
+      },
+      "glow-dark": {
+        "value": "0 0 15px 2px rgba(92, 133, 255, 0.35)",
+        "type": "boxShadow",
+        "description": "Glow effect for hover states (dark mode)",
+        "themeable": true,
+        "$extensions": {
+          "mode": "dark"
+        }
+      }
+    },
+    "border": {
+      "width": {
+        "thin": {
+          "value": "1px",
+          "type": "borderWidth",
+          "description": "Thin border width"
+        },
+        "base": {
+          "value": "2px",
+          "type": "borderWidth",
+          "description": "Base border width"
+        },
+        "thick": {
+          "value": "4px",
+          "type": "borderWidth",
+          "description": "Thick border width"
+        }
+      },
+      "style": {
+        "solid": {
+          "value": "solid",
+          "type": "borderStyle",
+          "description": "Solid border style"
+        },
+        "dashed": {
+          "value": "dashed",
+          "type": "borderStyle",
+          "description": "Dashed border style"
+        },
+        "none": {
+          "value": "none",
+          "type": "borderStyle",
+          "description": "No border"
+        }
+      }
+    },
+    "component": {
+      "button": {
+        "padding": {
+          "x": {
+            "value": "{fg.spacing.lg}",
+            "type": "spacing",
+            "description": "Button horizontal padding"
+          },
+          "y": {
+            "value": "{fg.spacing.sm}",
+            "type": "spacing",
+            "description": "Button vertical padding"
+          }
+        },
+        "radius": {
+          "value": "{fg.radius.md}",
+          "type": "borderRadius",
+          "description": "Button border radius"
+        },
+        "shadow": {
+          "value": "{fg.shadow.sm}",
+          "type": "boxShadow",
+          "description": "Button shadow",
+          "themeable": true,
+          "$extensions": {
+            "mode": "light"
+          }
+        },
+        "shadow-dark": {
+          "value": "{fg.shadow.sm-dark}",
+          "type": "boxShadow",
+          "description": "Button shadow (dark mode)",
+          "themeable": true,
+          "$extensions": {
+            "mode": "dark"
+          }
+        },
+        "shadow-hover": {
+          "value": "{fg.shadow.md}",
+          "type": "boxShadow",
+          "description": "Button hover shadow",
+          "themeable": true,
+          "$extensions": {
+            "mode": "light"
+          }
+        },
+        "shadow-hover-dark": {
+          "value": "{fg.shadow.md-dark}",
+          "type": "boxShadow",
+          "description": "Button hover shadow (dark mode)",
+          "themeable": true,
+          "$extensions": {
+            "mode": "dark"
+          }
+        }
+      },
+      "card": {
+        "padding": {
+          "value": "{fg.spacing.xl}",
+          "type": "spacing",
+          "description": "Card padding"
+        },
+        "radius": {
+          "value": "{fg.radius.lg}",
+          "type": "borderRadius",
+          "description": "Card border radius"
+        },
+        "shadow": {
+          "value": "{fg.shadow.md}",
+          "type": "boxShadow",
+          "description": "Card shadow",
+          "themeable": true,
+          "$extensions": {
+            "mode": "light"
+          }
+        },
+        "shadow-dark": {
+          "value": "{fg.shadow.md-dark}",
+          "type": "boxShadow",
+          "description": "Card shadow (dark mode)",
+          "themeable": true,
+          "$extensions": {
+            "mode": "dark"
+          }
+        }
+      },
+      "input": {
+        "padding": {
+          "x": {
+            "value": "{fg.spacing.md}",
+            "type": "spacing",
+            "description": "Input horizontal padding"
+          },
+          "y": {
+            "value": "{fg.spacing.sm}",
+            "type": "spacing",
+            "description": "Input vertical padding"
+          }
+        },
+        "radius": {
+          "value": "{fg.radius.md}",
+          "type": "borderRadius",
+          "description": "Input border radius"
+        },
+        "border": {
+          "value": "{fg.border.width.thin}",
+          "type": "borderWidth",
+          "description": "Input border width"
+        }
+      },
+      "nav": {
+        "height": {
+          "value": "4rem",
+          "type": "sizing",
+          "description": "Navigation bar height"
+        }
+      }
+    },
+    "breakpoint": {
+      "xs": {
+        "value": "480px",
+        "type": "sizing",
+        "description": "Extra small breakpoint (mobile)"
+      },
+      "sm": {
+        "value": "768px",
+        "type": "sizing",
+        "description": "Small breakpoint (tablet)"
+      },
+      "md": {
+        "value": "1024px",
+        "type": "sizing",
+        "description": "Medium breakpoint (laptop)"
+      },
+      "lg": {
+        "value": "1280px",
+        "type": "sizing",
+        "description": "Large breakpoint (desktop)"
+      },
+      "xl": {
+        "value": "1536px",
+        "type": "sizing",
+        "description": "Extra large breakpoint (large desktop)"
+      }
+    },
+    "utility": {
+      "container": {
+        "max": {
+          "value": "1280px",
+          "type": "sizing",
+          "description": "Maximum container width"
+        }
+      },
+      "z-index": {
+        "base": {
+          "value": "1",
+          "type": "other",
+          "description": "Base z-index"
+        },
+        "dropdown": {
+          "value": "10",
+          "type": "other",
+          "description": "Dropdown z-index"
+        },
+        "sticky": {
+          "value": "50",
+          "type": "other",
+          "description": "Sticky elements z-index"
+        },
+        "nav": {
+          "value": "100",
+          "type": "other",
+          "description": "Navigation z-index"
+        },
+        "modal": {
+          "value": "1000",
+          "type": "other",
+          "description": "Modal z-index"
+        },
+        "tooltip": {
+          "value": "1500",
+          "type": "other",
+          "description": "Tooltip z-index"
+        }
+      },
+      "transition": {
+        "fast": {
+          "value": "150ms",
+          "type": "duration",
+          "description": "Fast transition duration"
+        },
+        "base": {
+          "value": "300ms",
+          "type": "duration",
+          "description": "Base transition duration"
+        },
+        "slow": {
+          "value": "500ms",
+          "type": "duration",
+          "description": "Slow transition duration"
+        }
+      },
+      "easing": {
+        "standard": {
+          "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+          "type": "cubicBezier",
+          "description": "Standard easing curve"
+        },
+        "in": {
+          "value": "cubic-bezier(0.4, 0, 1, 1)",
+          "type": "cubicBezier",
+          "description": "Easing curve for elements entering the screen"
+        },
+        "out": {
+          "value": "cubic-bezier(0, 0, 0.2, 1)",
+          "type": "cubicBezier",
+          "description": "Easing curve for elements leaving the screen"
+        },
+        "in-out": {
+          "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+          "type": "cubicBezier",
+          "description": "Easing curve for elements entering and leaving the screen"
+        }
+      }
+    }
+  }
+}
