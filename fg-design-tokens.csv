@@ -1,0 +1,126 @@
+Category,Token Name,Theme,Value,Unit,Type,Description
+Color,--fg-c-primary,light,#3366FF,,color,Primary brand color
+Color,--fg-c-primary,dark,#5C85FF,,color,Primary brand color (dark mode)
+Color,--fg-c-accent,light,#FF6B00,,color,Secondary accent color
+Color,--fg-c-accent,dark,#FF8A3D,,color,Secondary accent color (dark mode)
+Color,--fg-c-text,light,#1A1A1A,,color,Primary text color
+Color,--fg-c-text,dark,#F5F5F5,,color,Primary text color (dark mode)
+Color,--fg-c-text-muted,light,#6B7280,,color,Secondary text color
+Color,--fg-c-text-muted,dark,#9CA3AF,,color,Secondary text color (dark mode)
+Color,--fg-c-bg,light,#FFFFFF,,color,Background color
+Color,--fg-c-bg,dark,#121212,,color,Background color (dark mode)
+Color,--fg-c-surface,light,#F9FAFB,,color,Surface color for cards and elements
+Color,--fg-c-surface,dark,#1E1E1E,,color,Surface color for cards and elements (dark mode)
+Color,--fg-c-border,light,#E5E7EB,,color,Border color
+Color,--fg-c-border,dark,#333333,,color,Border color (dark mode)
+Color,--fg-c-success,light,#10B981,,color,Success state color
+Color,--fg-c-success,dark,#34D399,,color,Success state color (dark mode)
+Color,--fg-c-error,light,#EF4444,,color,Error state color
+Color,--fg-c-error,dark,#F87171,,color,Error state color (dark mode)
+Color,--fg-c-warning,light,#F59E0B,,color,Warning state color
+Color,--fg-c-warning,dark,#FBBF24,,color,Warning state color (dark mode)
+Color,--fg-c-btn-hover,light,#2952CC,,color,Button hover state color
+Color,--fg-c-btn-hover,dark,#7599FF,,color,Button hover state color (dark mode)
+Color,--fg-c-btn-focus,light,#1F42A3,,color,Button focus state color
+Color,--fg-c-btn-focus,dark,#4A6ECC,,color,Button focus state color (dark mode)
+Typography,--fg-f-family-base,all,Inter\, system-ui\, sans-serif,,fontFamilies,Base font family for body text
+Typography,--fg-f-family-alt,all,Manrope\, system-ui\, sans-serif,,fontFamilies,Alternative font family for headings
+Typography,--fg-f-size-xs,all,0.75,rem,fontSizes,Extra small font size (12px)
+Typography,--fg-f-size-sm,all,0.875,rem,fontSizes,Small font size (14px)
+Typography,--fg-f-size-base,all,1,rem,fontSizes,Base font size (16px)
+Typography,--fg-f-size-lg,all,1.125,rem,fontSizes,Large font size (18px)
+Typography,--fg-f-size-xl,all,1.25,rem,fontSizes,Extra large font size (20px)
+Typography,--fg-f-size-2xl,all,1.5,rem,fontSizes,2x large font size (24px)
+Typography,--fg-f-size-3xl,all,1.875,rem,fontSizes,3x large font size (30px)
+Typography,--fg-f-size-4xl,all,2.25,rem,fontSizes,4x large font size (36px)
+Typography,--fg-f-size-5xl,all,3,rem,fontSizes,5x large font size (48px)
+Typography,--fg-f-size-6xl,all,3.75,rem,fontSizes,6x large font size (60px)
+Typography,--fg-f-weight-light,all,300,,fontWeights,Light font weight
+Typography,--fg-f-weight-regular,all,400,,fontWeights,Regular font weight
+Typography,--fg-f-weight-medium,all,500,,fontWeights,Medium font weight
+Typography,--fg-f-weight-semibold,all,600,,fontWeights,Semibold font weight
+Typography,--fg-f-weight-bold,all,700,,fontWeights,Bold font weight
+Typography,--fg-f-style-normal,all,normal,,fontStyles,Normal font style
+Typography,--fg-f-style-italic,all,italic,,fontStyles,Italic font style
+Typography,--fg-lh-tight,all,1.25,,lineHeights,Tight line height for headings
+Typography,--fg-lh-base,all,1.5,,lineHeights,Base line height for body text
+Typography,--fg-lh-loose,all,1.75,,lineHeights,Loose line height for readable paragraphs
+Typography,--fg-ls-tight,all,-0.025,em,letterSpacing,Tight letter spacing for headings
+Typography,--fg-ls-normal,all,0,,letterSpacing,Normal letter spacing
+Typography,--fg-ls-wide,all,0.025,em,letterSpacing,Wide letter spacing for small text and all-caps
+Spacing,--fg-s-xxs,all,0.25,rem,spacing,Extra extra small spacing (4px)
+Spacing,--fg-s-xs,all,0.5,rem,spacing,Extra small spacing (8px)
+Spacing,--fg-s-sm,all,0.75,rem,spacing,Small spacing (12px)
+Spacing,--fg-s-md,all,1,rem,spacing,Medium spacing (16px)
+Spacing,--fg-s-lg,all,1.5,rem,spacing,Large spacing (24px)
+Spacing,--fg-s-xl,all,2,rem,spacing,Extra large spacing (32px)
+Spacing,--fg-s-2xl,all,3,rem,spacing,2x large spacing (48px)
+Spacing,--fg-s-3xl,all,4,rem,spacing,3x large spacing (64px)
+Spacing,--fg-s-4xl,all,6,rem,spacing,4x large spacing (96px)
+Spacing,--fg-s-5xl,all,8,rem,spacing,5x large spacing (128px)
+Spacing,--fg-p-section,all,var(--fg-s-4xl),,spacing,Section padding
+Spacing,--fg-p-card,all,var(--fg-s-lg),,spacing,Card padding
+Spacing,--fg-m-block,all,var(--fg-s-xl),,spacing,Block margin
+Spacing,--fg-gap-grid,all,var(--fg-s-lg),,spacing,Grid gap
+Border Radius,--fg-r-xs,all,0.125,rem,borderRadius,Extra small border radius (2px)
+Border Radius,--fg-r-sm,all,0.25,rem,borderRadius,Small border radius (4px)
+Border Radius,--fg-r-md,all,0.5,rem,borderRadius,Medium border radius (8px)
+Border Radius,--fg-r-lg,all,0.75,rem,borderRadius,Large border radius (12px)
+Border Radius,--fg-r-xl,all,1,rem,borderRadius,Extra large border radius (16px)
+Border Radius,--fg-r-2xl,all,1.5,rem,borderRadius,2x large border radius (24px)
+Border Radius,--fg-r-full,all,9999,px,borderRadius,Full/pill border radius
+Shadow,--fg-shadow-xs,light,0 1px 2px 0 rgba(0\, 0\, 0\, 0.05),,boxShadow,Extra small shadow
+Shadow,--fg-shadow-xs,dark,0 1px 2px 0 rgba(0\, 0\, 0\, 0.3),,boxShadow,Extra small shadow (dark mode)
+Shadow,--fg-shadow-sm,light,0 1px 3px 0 rgba(0\, 0\, 0\, 0.1)\, 0 1px 2px 0 rgba(0\, 0\, 0\, 0.06),,boxShadow,Small shadow
+Shadow,--fg-shadow-sm,dark,0 1px 3px 0 rgba(0\, 0\, 0\, 0.3)\, 0 1px 2px 0 rgba(0\, 0\, 0\, 0.2),,boxShadow,Small shadow (dark mode)
+Shadow,--fg-shadow-md,light,0 4px 6px -1px rgba(0\, 0\, 0\, 0.1)\, 0 2px 4px -1px rgba(0\, 0\, 0\, 0.06),,boxShadow,Medium shadow
+Shadow,--fg-shadow-md,dark,0 4px 6px -1px rgba(0\, 0\, 0\, 0.3)\, 0 2px 4px -1px rgba(0\, 0\, 0\, 0.2),,boxShadow,Medium shadow (dark mode)
+Shadow,--fg-shadow-lg,light,0 10px 15px -3px rgba(0\, 0\, 0\, 0.1)\, 0 4px 6px -2px rgba(0\, 0\, 0\, 0.05),,boxShadow,Large shadow
+Shadow,--fg-shadow-lg,dark,0 10px 15px -3px rgba(0\, 0\, 0\, 0.3)\, 0 4px 6px -2px rgba(0\, 0\, 0\, 0.2),,boxShadow,Large shadow (dark mode)
+Shadow,--fg-shadow-xl,light,0 20px 25px -5px rgba(0\, 0\, 0\, 0.1)\, 0 10px 10px -5px rgba(0\, 0\, 0\, 0.04),,boxShadow,Extra large shadow
+Shadow,--fg-shadow-xl,dark,0 20px 25px -5px rgba(0\, 0\, 0\, 0.3)\, 0 10px 10px -5px rgba(0\, 0\, 0\, 0.2),,boxShadow,Extra large shadow (dark mode)
+Shadow,--fg-shadow-2xl,light,0 25px 50px -12px rgba(0\, 0\, 0\, 0.25),,boxShadow,2x large shadow
+Shadow,--fg-shadow-2xl,dark,0 25px 50px -12px rgba(0\, 0\, 0\, 0.5),,boxShadow,2x large shadow (dark mode)
+Shadow,--fg-shadow-glow,light,0 0 15px 2px rgba(51\, 102\, 255\, 0.25),,boxShadow,Glow effect for hover states
+Shadow,--fg-shadow-glow,dark,0 0 15px 2px rgba(92\, 133\, 255\, 0.35),,boxShadow,Glow effect for hover states (dark mode)
+Border,--fg-bw-thin,all,1,px,borderWidth,Thin border width
+Border,--fg-bw-base,all,2,px,borderWidth,Base border width
+Border,--fg-bw-thick,all,4,px,borderWidth,Thick border width
+Border,--fg-bs-solid,all,solid,,borderStyle,Solid border style
+Border,--fg-bs-dashed,all,dashed,,borderStyle,Dashed border style
+Border,--fg-bs-none,all,none,,borderStyle,No border
+Component,--fg-btn-padding-x,all,var(--fg-s-lg),,spacing,Button horizontal padding
+Component,--fg-btn-padding-y,all,var(--fg-s-sm),,spacing,Button vertical padding
+Component,--fg-btn-radius,all,var(--fg-r-md),,borderRadius,Button border radius
+Component,--fg-btn-shadow,light,var(--fg-shadow-sm),,boxShadow,Button shadow
+Component,--fg-btn-shadow,dark,var(--fg-shadow-sm-dark),,boxShadow,Button shadow (dark mode)
+Component,--fg-btn-shadow-hover,light,var(--fg-shadow-md),,boxShadow,Button hover shadow
+Component,--fg-btn-shadow-hover,dark,var(--fg-shadow-md-dark),,boxShadow,Button hover shadow (dark mode)
+Component,--fg-card-padding,all,var(--fg-s-xl),,spacing,Card padding
+Component,--fg-card-radius,all,var(--fg-r-lg),,borderRadius,Card border radius
+Component,--fg-card-shadow,light,var(--fg-shadow-md),,boxShadow,Card shadow
+Component,--fg-card-shadow,dark,var(--fg-shadow-md-dark),,boxShadow,Card shadow (dark mode)
+Component,--fg-input-padding-x,all,var(--fg-s-md),,spacing,Input horizontal padding
+Component,--fg-input-padding-y,all,var(--fg-s-sm),,spacing,Input vertical padding
+Component,--fg-input-radius,all,var(--fg-r-md),,borderRadius,Input border radius
+Component,--fg-input-border,all,var(--fg-bw-thin),,borderWidth,Input border width
+Component,--fg-nav-height,all,4,rem,sizing,Navigation bar height
+Breakpoint,--fg-bp-xs,all,480,px,sizing,Extra small breakpoint (mobile)
+Breakpoint,--fg-bp-sm,all,768,px,sizing,Small breakpoint (tablet)
+Breakpoint,--fg-bp-md,all,1024,px,sizing,Medium breakpoint (laptop)
+Breakpoint,--fg-bp-lg,all,1280,px,sizing,Large breakpoint (desktop)
+Breakpoint,--fg-bp-xl,all,1536,px,sizing,Extra large breakpoint (large desktop)
+Utility,--fg-container-max,all,1280,px,sizing,Maximum container width
+Utility,--fg-z-index-base,all,1,,other,Base z-index
+Utility,--fg-z-index-dropdown,all,10,,other,Dropdown z-index
+Utility,--fg-z-index-sticky,all,50,,other,Sticky elements z-index
+Utility,--fg-z-index-nav,all,100,,other,Navigation z-index
+Utility,--fg-z-index-modal,all,1000,,other,Modal z-index
+Utility,--fg-z-index-tooltip,all,1500,,other,Tooltip z-index
+Utility,--fg-transition-fast,all,150,ms,duration,Fast transition duration
+Utility,--fg-transition-base,all,300,ms,duration,Base transition duration
+Utility,--fg-transition-slow,all,500,ms,duration,Slow transition duration
+Utility,--fg-easing-standard,all,cubic-bezier(0.4\, 0\, 0.2\, 1),,cubicBezier,Standard easing curve
+Utility,--fg-easing-in,all,cubic-bezier(0.4\, 0\, 1\, 1),,cubicBezier,Easing curve for elements entering the screen
+Utility,--fg-easing-out,all,cubic-bezier(0\, 0\, 0.2\, 1),,cubicBezier,Easing curve for elements leaving the screen
+Utility,--fg-easing-in-out,all,cubic-bezier(0.4\, 0\, 0.2\, 1),,cubicBezier,Easing curve for elements entering and leaving the screen
