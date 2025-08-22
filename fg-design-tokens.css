@@ -1,0 +1,250 @@
+/**
+ * Future AI Guide Design System
+ * ACSS Tokenized Design System with -fg Prefix
+ * 
+ * This file contains all design tokens as CSS custom properties (variables)
+ * with support for both light and dark themes.
+ */
+
+:root {
+  /* ===== COLOR TOKENS ===== */
+  
+  /* Primary Colors */
+  --fg-c-primary: #3366FF;
+  --fg-c-accent: #FF6B00;
+  
+  /* Text Colors */
+  --fg-c-text: #1A1A1A;
+  --fg-c-text-muted: #6B7280;
+  
+  /* Background Colors */
+  --fg-c-bg: #FFFFFF;
+  --fg-c-surface: #F9FAFB;
+  
+  /* Border Colors */
+  --fg-c-border: #E5E7EB;
+  
+  /* State Colors */
+  --fg-c-success: #10B981;
+  --fg-c-error: #EF4444;
+  --fg-c-warning: #F59E0B;
+  
+  /* Button States */
+  --fg-c-btn-hover: #2952CC;
+  --fg-c-btn-focus: #1F42A3;
+  
+  /* ===== TYPOGRAPHY TOKENS ===== */
+  
+  /* Font Families */
+  --fg-f-family-base: Inter, system-ui, sans-serif;
+  --fg-f-family-alt: Manrope, system-ui, sans-serif;
+  
+  /* Font Sizes */
+  --fg-f-size-xs: 0.75rem;  /* 12px */
+  --fg-f-size-sm: 0.875rem; /* 14px */
+  --fg-f-size-base: 1rem;   /* 16px */
+  --fg-f-size-lg: 1.125rem; /* 18px */
+  --fg-f-size-xl: 1.25rem;  /* 20px */
+  --fg-f-size-2xl: 1.5rem;  /* 24px */
+  --fg-f-size-3xl: 1.875rem; /* 30px */
+  --fg-f-size-4xl: 2.25rem;  /* 36px */
+  --fg-f-size-5xl: 3rem;     /* 48px */
+  --fg-f-size-6xl: 3.75rem;  /* 60px */
+  
+  /* Font Weights */
+  --fg-f-weight-light: 300;
+  --fg-f-weight-regular: 400;
+  --fg-f-weight-medium: 500;
+  --fg-f-weight-semibold: 600;
+  --fg-f-weight-bold: 700;
+  
+  /* Font Styles */
+  --fg-f-style-normal: normal;
+  --fg-f-style-italic: italic;
+  
+  /* Line Heights */
+  --fg-lh-tight: 1.25;
+  --fg-lh-base: 1.5;
+  --fg-lh-loose: 1.75;
+  
+  /* Letter Spacing */
+  --fg-ls-tight: -0.025em;
+  --fg-ls-normal: 0;
+  --fg-ls-wide: 0.025em;
+  
+  /* ===== SPACING & SIZING TOKENS ===== */
+  
+  /* Spacing Scale */
+  --fg-s-xxs: 0.25rem;  /* 4px */
+  --fg-s-xs: 0.5rem;    /* 8px */
+  --fg-s-sm: 0.75rem;   /* 12px */
+  --fg-s-md: 1rem;      /* 16px */
+  --fg-s-lg: 1.5rem;    /* 24px */
+  --fg-s-xl: 2rem;      /* 32px */
+  --fg-s-2xl: 3rem;     /* 48px */
+  --fg-s-3xl: 4rem;     /* 64px */
+  --fg-s-4xl: 6rem;     /* 96px */
+  --fg-s-5xl: 8rem;     /* 128px */
+  
+  /* Specific Spacing */
+  --fg-p-section: var(--fg-s-4xl);
+  --fg-p-card: var(--fg-s-lg);
+  --fg-m-block: var(--fg-s-xl);
+  --fg-gap-grid: var(--fg-s-lg);
+  
+  /* ===== BORDER RADIUS TOKENS ===== */
+  --fg-r-xs: 0.125rem;  /* 2px */
+  --fg-r-sm: 0.25rem;   /* 4px */
+  --fg-r-md: 0.5rem;    /* 8px */
+  --fg-r-lg: 0.75rem;   /* 12px */
+  --fg-r-xl: 1rem;      /* 16px */
+  --fg-r-2xl: 1.5rem;   /* 24px */
+  --fg-r-full: 9999px;  /* Pill shape */
+  
+  /* ===== SHADOW TOKENS ===== */
+  --fg-shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --fg-shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --fg-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --fg-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --fg-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --fg-shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --fg-shadow-glow: 0 0 15px 2px rgba(51, 102, 255, 0.25);
+  
+  /* ===== BORDER TOKENS ===== */
+  --fg-bw-thin: 1px;
+  --fg-bw-base: 2px;
+  --fg-bw-thick: 4px;
+  --fg-bs-solid: solid;
+  --fg-bs-dashed: dashed;
+  --fg-bs-none: none;
+  
+  /* ===== COMPONENT TOKENS ===== */
+  
+  /* Button */
+  --fg-btn-padding-x: var(--fg-s-lg);
+  --fg-btn-padding-y: var(--fg-s-sm);
+  --fg-btn-radius: var(--fg-r-md);
+  --fg-btn-shadow: var(--fg-shadow-sm);
+  --fg-btn-shadow-hover: var(--fg-shadow-md);
+  
+  /* Card */
+  --fg-card-padding: var(--fg-s-xl);
+  --fg-card-radius: var(--fg-r-lg);
+  --fg-card-shadow: var(--fg-shadow-md);
+  
+  /* Input */
+  --fg-input-padding-x: var(--fg-s-md);
+  --fg-input-padding-y: var(--fg-s-sm);
+  --fg-input-radius: var(--fg-r-md);
+  --fg-input-border: var(--fg-bw-thin);
+  
+  /* Navigation */
+  --fg-nav-height: 4rem;
+  
+  /* ===== BREAKPOINTS ===== */
+  --fg-bp-xs: 480px;  /* Mobile */
+  --fg-bp-sm: 768px;  /* Tablet */
+  --fg-bp-md: 1024px; /* Laptop */
+  --fg-bp-lg: 1280px; /* Desktop */
+  --fg-bp-xl: 1536px; /* Large Desktop */
+  
+  /* ===== UTILITY TOKENS ===== */
+  --fg-container-max: 1280px;
+  
+  /* Z-index */
+  --fg-z-index-base: 1;
+  --fg-z-index-dropdown: 10;
+  --fg-z-index-sticky: 50;
+  --fg-z-index-nav: 100;
+  --fg-z-index-modal: 1000;
+  --fg-z-index-tooltip: 1500;
+  
+  /* Transitions */
+  --fg-transition-fast: 150ms;
+  --fg-transition-base: 300ms;
+  --fg-transition-slow: 500ms;
+  
+  /* Easing */
+  --fg-easing-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --fg-easing-in: cubic-bezier(0.4, 0, 1, 1);
+  --fg-easing-out: cubic-bezier(0, 0, 0.2, 1);
+  --fg-easing-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Dark Theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* ===== COLOR TOKENS (DARK MODE) ===== */
+    
+    /* Primary Colors */
+    --fg-c-primary: #5C85FF;
+    --fg-c-accent: #FF8A3D;
+    
+    /* Text Colors */
+    --fg-c-text: #F5F5F5;
+    --fg-c-text-muted: #9CA3AF;
+    
+    /* Background Colors */
+    --fg-c-bg: #121212;
+    --fg-c-surface: #1E1E1E;
+    
+    /* Border Colors */
+    --fg-c-border: #333333;
+    
+    /* State Colors */
+    --fg-c-success: #34D399;
+    --fg-c-error: #F87171;
+    --fg-c-warning: #FBBF24;
+    
+    /* Button States */
+    --fg-c-btn-hover: #7599FF;
+    --fg-c-btn-focus: #4A6ECC;
+    
+    /* ===== SHADOW TOKENS (DARK MODE) ===== */
+    --fg-shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    --fg-shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    --fg-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+    --fg-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+    --fg-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+    --fg-shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    --fg-shadow-glow: 0 0 15px 2px rgba(92, 133, 255, 0.35);
+  }
+}
+
+/* Theme Class for Manual Theme Switching */
+.theme-dark {
+  /* ===== COLOR TOKENS (DARK MODE) ===== */
+  
+  /* Primary Colors */
+  --fg-c-primary: #5C85FF;
+  --fg-c-accent: #FF8A3D;
+  
+  /* Text Colors */
+  --fg-c-text: #F5F5F5;
+  --fg-c-text-muted: #9CA3AF;
+  
+  /* Background Colors */
+  --fg-c-bg: #121212;
+  --fg-c-surface: #1E1E1E;
+  
+  /* Border Colors */
+  --fg-c-border: #333333;
+  
+  /* State Colors */
+  --fg-c-success: #34D399;
+  --fg-c-error: #F87171;
+  --fg-c-warning: #FBBF24;
+  
+  /* Button States */
+  --fg-c-btn-hover: #7599FF;
+  --fg-c-btn-focus: #4A6ECC;
+  
+  /* ===== SHADOW TOKENS (DARK MODE) ===== */
+  --fg-shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --fg-shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  --fg-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  --fg-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+  --fg-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  --fg-shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  --fg-shadow-glow: 0 0 15px 2px rgba(92, 133, 255, 0.35);
+}
