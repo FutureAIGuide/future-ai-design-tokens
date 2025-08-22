@@ -1,0 +1,21 @@
+{
+  "name": "fg-design-tokens",
+  "version": "1.0.0",
+  "description": "Future AI Guide Design System Tokens",
+  "main": "csv-to-xlsx.js",
+  "scripts": {
+    "convert": "node csv-to-xlsx.js"
+  },
+  "keywords": [
+    "design",
+    "tokens",
+    "design-system",
+    "acss",
+    "figma"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
