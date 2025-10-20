@@ -1,6 +1,10 @@
 # Documentation
 
-This directory is reserved for general project documentation, guides, and reference materials.
+This directory contains general project documentation, guides, and reference materials.
+
+## Available Documentation
+
+- **[ORGANIZATION.md](ORGANIZATION.md)** - Detailed guide to the repository's organized layout and directory structure
 
 ## Purpose
 
@@ -10,5 +14,11 @@ A central location for:
 - Integration guides
 - Troubleshooting documentation
 - Contributing guidelines
+- Repository organization and structure
 
-Currently empty - documentation will be added as the project evolves.
+## Quick Links
+
+- [Main README](../README.md)
+- [Design Tokens](../design/)
+- [Branding Guidelines](../branding/)
+- [Content Strategy](../content/)
