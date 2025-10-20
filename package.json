@@ -2,9 +2,9 @@
   "name": "fg-design-tokens",
   "version": "1.0.0",
   "description": "Future AI Guide Design System Tokens",
-  "main": "csv-to-xlsx.js",
+  "main": "code/csv-to-xlsx.js",
   "scripts": {
-    "convert": "node csv-to-xlsx.js"
+    "convert": "node code/csv-to-xlsx.js"
   },
   "keywords": [
     "design",

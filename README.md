@@ -2,6 +2,28 @@
 
 A comprehensive, extensible, and ACSS-compatible design token library using the `-fg` prefix for every token. This system supports both light and dark themes, includes responsive breakpoints, and is optimized for UI component reuse, accessibility, and global scalability.
 
+## 📁 Repository Structure
+
+This repository uses a single organized layout where design, branding, content, code, infra, and docs live together:
+
+```
+├── design/          # Design tokens in multiple formats (JSON, CSS, CSV, XLSX)
+├── branding/        # Brand guidelines and design system documentation
+├── content/         # Content strategy and website structure documentation
+├── code/            # Source code and scripts
+├── infra/           # Infrastructure configuration and project management
+└── docs/            # General documentation and guides
+```
+
+### Directory Overview
+
+- **[design/](design/)** - Design tokens (JSON, CSS, CSV) for Figma, Bricks Builder, and web projects
+- **[branding/](branding/)** - Design system specifications, UI/UX rules, and branding guidelines
+- **[content/](content/)** - Website purpose, structure, and content strategy documentation
+- **[code/](code/)** - Conversion scripts and source code
+- **[infra/](infra/)** - Configuration files, plugin lists, and task management
+- **[docs/](docs/)** - General documentation (guides, API docs, tutorials)
+
 ## Overview
 
 This design token system follows Automatic.css (ACSS) principles and BEM naming best practices with a strict `-fg` prefix namespace. It's ideal for use across Figma, Bricks Builder, and advanced UI/UX workflows.
@@ -62,12 +84,12 @@ This design token system follows Automatic.css (ACSS) principles and BEM naming 
 
 ## File Formats
 
-This design system is available in multiple formats:
+The design tokens are available in multiple formats in the `design/` directory:
 
-1. **JSON** (`fg-design-tokens.json`): Compatible with Tokens Studio for Figma
-2. **CSS** (`fg-design-tokens.css`): Ready to use in web projects with CSS variables
-3. **CSV** (`fg-design-tokens.csv`): Tabular format for easy viewing and editing
-4. **XLSX** (`fg-design-tokens.xlsx`): Excel format for stakeholder presentations
+1. **JSON** (`design/fg-design-tokens.json`): Compatible with Tokens Studio for Figma
+2. **CSS** (`design/fg-design-tokens.css`): Ready to use in web projects with CSS variables
+3. **CSV** (`design/fg-design-tokens.csv`): Tabular format for easy viewing and editing
+4. **XLSX** (`design/fg-design-tokens.xlsx`): Excel format for stakeholder presentations
 
 ## Usage
 
@@ -114,8 +136,8 @@ To convert the CSV file to XLSX format:
 
 ## Integration with Design Tools
 
-- **Figma**: Import the JSON file into Tokens Studio for Figma
-- **Bricks Builder**: Use the CSS variables directly in your styles
+- **Figma**: Import the JSON file from `design/` into Tokens Studio for Figma
+- **Bricks Builder**: Use the CSS variables from `design/fg-design-tokens.css` directly in your styles
 - **Other Tools**: Import the appropriate format based on your workflow
 
 ## License
